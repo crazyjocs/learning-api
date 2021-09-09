@@ -1,4 +1,11 @@
-.videoElement {
-  width: 500px;
+.player-wrapper {
+  width: 400px;
   aspect-ratio: 16/9;
+  position: relative;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
